@@ -1,0 +1,34 @@
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\bin\Debug\net6.0\Entities.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\bin\Debug\net6.0\Entities.pdb
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\hkmdr\source\repos\ProjeITPreProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\bin\Debug\net6.0\Entities.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\bin\Debug\net6.0\Entities.pdb
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

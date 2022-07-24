@@ -1,0 +1,74 @@
+﻿@using ProjeITPreProjectMvcUI.Areas.Admin.ViewModels
+@model ActionsListViewModel
+@{
+    ViewData["Title"] = "Actions Page";
+}
+<link href="/assets/advanced-datatable/media/css/demo_page.css" rel="stylesheet" />
+<link href="/assets/advanced-datatable/media/css/demo_table.css" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/data-tables/DT_bootstrap.css" />
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Actions List
+                <span class="tools pull-right">
+                    <a href="javascript:;" class="fa fa-chevron-down"></a>
+                    <a href="javascript:;" class="fa fa-times"></a>
+                </span>
+                <div class="row" style="margin-top: 15px; margin-left:10px; margin-bottom:10px;">
+                    <a asp-area="Admin" asp-controller="Actions" asp-action="Create" asp-route-id="@Model.TaskId"  class="btn btn-info"><i class="fas fa-plus"></i> Add Action</a>
+                </div>
+            </header>
+            <div class="panel-body">
+                <div class="adv-table">
+                    <table class="display table table-bordered table-striped" id="dynamic-table">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Task</th>
+                                <th>Description</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.Actions.Any())
+                            {
+                                foreach (var action in Model.Actions)
+                                {
+                                    <tr class="gradeX">
+                                        <td>@action.Id</td>
+                                        <td>@action.Task.Name</td>
+                                        <td>@action.Description</td>
+                                        <td>
+                                            <form asp-area="Admin" asp-controller="Actions" asp-action="Delete" asp-route-id="@action.Id" asp-route-taskId="@Model.TaskId" method="post">
+                                                <span id="confirmDeleteSpan_@action.Id" style="display: none">
+                                                    <button type="submit" data-toggle="tooltip" title="Submit" class="btn btn-danger btn-xs" style="border: transparent;"> <span><i style="color: white" class="fa fa-check"></i></span></button>
+                                                    <a onclick="confirmDelete('@action.Id', false)" data-toggle="tooltip" title="Cancel" class="btn btn-success btn-xs "> <span><i style="color: white" class="fa fa-times"></i></span> </a>
+                                                </span>
+                                                <span id="deleteSpan_@action.Id">
+                                                    <a onclick="confirmDelete('@action.Id', true)" data-toggle="tooltip" title="Delete" class="btn btn-danger btn-xs"> <span><i class="fa fa-trash"></i></span></a>
+                                                </span>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+@section Scripts
+    {
+    <script type="text/javascript" language="javascript" src="/assets/advanced-datatable/media/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="/assets/data-tables/DT_bootstrap.js"></script>
+    <script src="/js/dynamic_table_init.js"></script>
+    <script src="/js/confirm-delete.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+}

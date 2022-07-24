@@ -1,0 +1,97 @@
+﻿@using ProjeITPreProjectMvcUI.Areas.Admin.ViewModels
+@model TasksCreateViewModel
+@{
+    ViewData["Title"] = "Task Add Page";
+}
+<link rel="stylesheet" type="text/css" href="/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+<link rel="stylesheet" type="text/css" href="/assets/bootstrap-datepicker/css/datepicker.css" />
+<link rel="stylesheet" type="text/css" href="/assets/bootstrap-timepicker/compiled/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="/assets/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="/assets/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="/assets/bootstrap-datetimepicker/css/datetimepicker.css" />
+<link rel="stylesheet" type="text/css" href="/assets/jquery-multi-select/css/multi-select.css" />
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Task Add Page
+            </header>
+            <div class="panel-body">
+                <form asp-area="Admin" asp-controller="Tasks" asp-action="Create" method="post" role="form" class="form-horizontal tasi-form">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group has-success">
+                        <label asp-for="CompanyId" class="col-lg-2 control-label">Company:</label>
+                        <div class="col-lg-10">
+                            <select required asp-for="CompanyId" asp-items="@Model.Companies" class="form-control"></select>
+                        </div>
+                    </div>
+                    <div class="form-group has-success">
+                        <label asp-for="Name" class="col-lg-2 control-label">Name:</label>
+                        <div class="col-lg-10">
+                            <input required asp-for="Name" type="text" placeholder="Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group has-success">
+                        <label asp-for="Contents" class="col-lg-2 control-label">Contents:</label>
+                        <div class="col-lg-10">
+                            <textarea required asp-for="Contents" placeholder="Contents" class="form-control"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group has-success">
+                        <label class="col-lg-2 control-label">Date Range:</label>
+                        <div class="col-lg-10">
+                            <div class="input-group input-large" data-date="13/07/2013" data-date-format="dd.mm.yyyy">
+                                <input required type="text" class="form-control dpd1" asp-for="StartDate">
+                                <span class="input-group-addon">To</span>
+                                <input required type="text" class="form-control dpd2" asp-for="FinishDate">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group has-success">
+                        <label asp-for="IsImportant" class="col-lg-2 control-label">Is Important:</label>
+                        <div class="col-lg-10">
+                            <input asp-for="IsImportant" style="width: 20px; height:20px;" class="checkbox form-control" type="checkbox">
+                        </div>
+
+                    </div>
+                    <div class="form-group has-success">
+                        <label asp-for="IsUrgent" class="col-lg-2 control-label">Is Urgent:</label>
+                        <div class="col-lg-10">
+                            <input asp-for="IsUrgent" style="width: 20px; height:20px;" class="checkbox form-control" type="checkbox">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group has-success">
+                        <label asp-for="Status" class="col-lg-2 control-label">Status:</label>
+                        <div class="col-lg-10">
+                            <select required asp-for="Status" class="form-control">
+                                <option value="In the process">In the process</option>
+                                <option value="Pending">Pending</option>
+                                <option value="Completed">Completed</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                            <button class="btn btn-danger" type="submit">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>
+@section Scripts
+    {
+    <script type="text/javascript" src="/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="/assets/bootstrap-daterangepicker/moment.min.js"></script>
+    <script type="text/javascript" src="/assets/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script type="text/javascript" src="/js/advanced-form-components.js"></script>
+    <script src="/js/UpdateEmployeesDrowdown.js"></script>
+    
+}

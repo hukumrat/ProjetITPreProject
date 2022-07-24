@@ -1,0 +1,168 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjeITPreProjectMvcUI
+build_property.RootNamespace = ProjeITPreProjectMvcUI
+build_property.ProjectDir = D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\ProjeITPreProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\ProjeITPreProject
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Actions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Actions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Comments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Comments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Companies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGFuaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Companies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGFuaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Companies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGFuaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Employees/TasksCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVzXFRhc2tzQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Employees/TasksList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVzXFRhc2tzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Tasks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Tasks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Tasks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Users/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Shared/403.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXDQwMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Shared/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXDQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Shared/503.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXDUwMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ut8e05nuab
+
+[D:/Archive/Projects/Asp .Net Core/ProjeIT/ProjeITPreProject/ProjeITPreProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hzhf3bte6f

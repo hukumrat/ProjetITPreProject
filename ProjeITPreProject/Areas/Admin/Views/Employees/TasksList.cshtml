@@ -1,0 +1,99 @@
+﻿@using ProjeITPreProjectMvcUI.Areas.Admin.ViewModels
+@model EmployeeTasksListViewModel
+@{
+    ViewData["Title"] = Model.Employee.Name + " " + Model.Employee.Surname + "Tasks List";
+}
+<link href="/assets/advanced-datatable/media/css/demo_page.css" rel="stylesheet" />
+<link href="/assets/advanced-datatable/media/css/demo_table.css" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/data-tables/DT_bootstrap.css" />
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel">
+            <header class="panel-heading">
+                @Model.Employee.Name @Model.Employee.Surname Tasks List
+                <span class="tools pull-right">
+                    <a href="javascript:;" class="fa fa-chevron-down"></a>
+                    <a href="javascript:;" class="fa fa-times"></a>
+                </span>
+                <div class="row" style="margin-top: 15px; margin-left:10px; margin-bottom:10px;">
+                    <a asp-area="Admin" asp-controller="Employees" asp-action="TasksCreate" asp-route-id="@Model.EmployeeId" class="btn btn-info"><i class="fas fa-plus"></i> Add Task</a>
+                </div>                                 
+            </header>
+            <div class="panel-body">
+                <div class="adv-table">
+                    <table class="display table table-bordered table-striped" id="dynamic-table">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Name</th>
+                                <th>Contents</th>
+                                <th>Start Date</th>
+                                <th>Finish Date</th>
+                                <th>Remaning Time</th>
+                                <th>Status</th>
+                                @if (User.IsInRole("Employee")) { <th>Actions</th>}
+                                @if (User.IsInRole("Manager")) { <th>Comments</th>}
+                                @if (User.IsInRole("Manager") || User.IsInRole("Admin")){ <th>Delete</th>}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if(Model.Tasks.Any())
+                            {
+                                foreach (var task in Model.Tasks)
+                                {
+                                    var color = "";
+                                    if (task.IsUrgent && task.IsImportant)
+                                        color = "red";
+                                    else if(task.IsUrgent && !task.IsImportant)
+                                        color = "orange";
+                                    else if(!task.IsUrgent && task.IsImportant)
+                                        color = "yellow";
+                                    else if (!task.IsUrgent && !task.IsImportant)
+                                        color = "green";
+
+                                    <tr class="gradeX">
+                                        <td style="color:@color;">@task.Id</td>
+                                        <td style="color:@color;">@task.Name</td>
+                                        <td style="color:@color;">@task.Contents</td>
+                                        <td style="color:@color;">@task.StartDate</td>
+                                        <td style="color:@color;">@task.FinishDate</td>
+                                        <td style="color:@color;">@task.RemainingDays</td>
+                                        <td style="color:@color;">@task.Status</td>
+                                        @if (User.IsInRole("Employee")) {<td><a asp-area="Admin" asp-controller="Actions" asp-action="Index" asp-route-id="@task.Id" data-toggle="tooltip" title="Actions" class="btn btn-primary btn-xs"><i class="fa fa-reply"></i></a></td>}
+                                        @if (User.IsInRole("Manager")) { <td><a asp-area="Admin" asp-controller="Comments" asp-action="Index" asp-route-id="@task.Id" data-toggle="tooltip" title="Comments" class="btn btn-primary btn-xs"><i class="fa fa-comment"></i></a></td>}
+                                        @if (User.IsInRole("Manager") || User.IsInRole("Admin"))
+                                        {
+                                            <td>
+                                            <form asp-area="Admin" asp-controller="Employees" asp-action="TasksDelete" asp-route-taskId="@task.Id" asp-route-employeeId="@Model.EmployeeId" method="post">
+                                                <span id="confirmDeleteSpan_@task.Id" style="display: none">
+                                                    <button type="submit" data-toggle="tooltip" title="Submit" class="btn btn-danger btn-xs" style="border: transparent;"> <span><i style="color: white" class="fa fa-check"></i></span></button>
+                                                    <a onclick="confirmDelete('@task.Id', false)" data-toggle="tooltip" title="Cancel" class="btn btn-success btn-xs "> <span><i style="color: white" class="fa fa-times"></i></span> </a>
+                                                </span>
+                                                <span id="deleteSpan_@task.Id">
+                                                    <a onclick="confirmDelete('@task.Id', true)" data-toggle="tooltip" title="Delete" class="btn btn-danger btn-xs"> <span><i class="fa fa-trash"></i></span></a>
+                                                </span>
+                                            </form>
+                                        </td>
+                                        }
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+@section Scripts
+    {
+    <script type="text/javascript" language="javascript" src="/assets/advanced-datatable/media/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="/assets/data-tables/DT_bootstrap.js"></script>
+    <script src="/js/dynamic_table_init.js"></script>
+    <script src="/js/confirm-delete.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+}

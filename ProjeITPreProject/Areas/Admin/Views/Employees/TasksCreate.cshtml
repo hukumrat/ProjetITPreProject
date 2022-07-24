@@ -1,0 +1,32 @@
+﻿@using ProjeITPreProjectMvcUI.Areas.Admin.ViewModels
+@model EmployeeTasksCreateViewModel
+@{
+    ViewData["Title"] = Model.Employee.Name + " " + Model.Employee.Surname + "Tasks Create Page";
+}
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                @Model.Employee.Name @Model.Employee.Surname Tasks Create Page
+            </header>
+            <div class="panel-body">
+                <form asp-area="Admin" asp-controller="Employees" asp-action="TasksCreate" method="post" role="form" class="form-horizontal tasi-form">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <input type="hidden" asp-for="EmployeeId" value="@Model.EmployeeId"/>
+                    <div class="form-group has-success">
+                        <label asp-for="TaskId" class="col-lg-2 control-label">Task:</label>
+
+                        <div class="col-lg-10">
+                            <select required asp-for="TaskId" asp-items="@Model.Tasks" class="form-control"></select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                            <button class="btn btn-danger" type="submit">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>

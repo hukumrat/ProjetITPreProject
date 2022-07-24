@@ -1,0 +1,34 @@
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\bin\Debug\net6.0\Business.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\bin\Debug\net6.0\DataAccess.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\bin\Debug\net6.0\Entities.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\bin\Debug\net6.0\Entities.pdb
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\hkmdr\source\repos\ProjeITPreProject\Business\obj\Debug\net6.0\ref\Business.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\bin\Debug\net6.0\Business.deps.json
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\bin\Debug\net6.0\Business.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\bin\Debug\net6.0\Business.pdb
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\bin\Debug\net6.0\DataAccess.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\bin\Debug\net6.0\Entities.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\bin\Debug\net6.0\DataAccess.pdb
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\bin\Debug\net6.0\Entities.pdb
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\refint\Business.dll
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\Business.pdb
+D:\Archive\Projects\Asp .Net Core\ProjeIT\ProjeITPreProject\Business\obj\Debug\net6.0\ref\Business.dll

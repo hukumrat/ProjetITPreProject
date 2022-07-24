@@ -1,0 +1,24 @@
+Admin:
+-Roles(CRUD Operations)
+-User(CRUD Operations)
+-Company(CRUD Operations)
+-Staff(CRUD Operations)
+-Task(CRUD Operations)
+-Account Operations
+
+Director:
+-Staff(CRUD Operations)
+-Task(CRUD Operations)
+-Account Operations
+
+Staff:
+-Task:(Listing, completing etc.)
+-Account Operations
+
+----------------------------------
+
+-Eisenhower Matrix:
+Important + Urgent = Red
+Important + Not Urgent = Yellow
+Not Important + Urgent = Orange
+Not Important + Not Urgent = Green
